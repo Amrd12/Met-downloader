@@ -7,6 +7,7 @@ import json
 import file
 import server
 import down
+print("licence saved from amrd12 follow me on github : https://github.com/Amrd12")
 #first need to check code version from server but save to later
 #    file(get user pas fpath)  server( check(user&&pas)getand check and send(creddit))  down(user &pas &fpath &url)
 s = requests.session()
