@@ -22,6 +22,7 @@ def get_info():
   pas = input("enter password ")
   if server.checkmet(user , pas) != "false":
     print("wroung user or pas")
+    input('Press ENTER to exit')
     file.remove()
     os._exit()
   fpath = input("enter the path to save videos ")
